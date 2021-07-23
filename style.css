@@ -1,0 +1,178 @@
+
+body {
+  margin: 0;
+  min-width: 960px;
+  font-family: 'Lobster', cursive;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  color: #222222;
+  background-color: #A9A9A9;
+  background-image: url("files/123.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+
+.container {
+  max-width: 928px;
+  margin: auto;
+  padding: 0 16px;
+  }
+
+.page-header {
+  margin: 0 0 160px;
+  padding: 32px 0 32px;
+}
+
+.page-header .container,
+.page-footer .container {
+  max-width: 1408px;
+  text-align: right;
+}
+.avatar {
+	border-radius: 30px;
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+
+.page-header a {
+  margin-left: 56px;
+  color: #ff0000;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.header-email {
+  padding-left: 30px;
+  background-image: url("img/icon-email-header.svg");
+    
+}
+
+.header-url {
+  padding-left: 25px;
+  background-image: url("img/youtube.svg");
+}
+
+.hero-image {
+  margin-bottom: 620px;
+}
+
+.hero-image .container {
+  max-width: 1408px;
+  text-align: center;
+}
+
+.heading {
+  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+  font-size: 100px;
+  line-height: normal;
+  font-weight: 700;
+  text-align: center;
+  color: #ff0000;
+}
+.i {
+	font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+  font-size: 3em;
+  line-height: normal;
+  font-weight: 700;
+  text-align: center;
+  color: #ff0000;
+ 
+}
+
+.hero-image {
+  margin: 0;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.intro {
+  background-image: url("files/fon2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #ffffff;
+  margin-bottom: 0px;
+ }
+
+.subheading {
+  margin: auto;
+  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.user-image {
+  margin: 0 0 32px;
+  text-align: center;
+}
+
+.intro h3,
+.portfolio h3 {
+  margin: auto;
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+.intro p {
+  margin: 0 0 32px;
+}
+
+.portfolio {
+  background-image: url("files/fon3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #ffffff;
+  margin-bottom: -25px;
+}
+
+.projects {
+  padding: 0;
+  list-style: none;
+}
+
+.project-image {
+  margin: auto;
+  text-align: center;
+}
+
+.page-footer {
+  padding: 40px 0;
+  background-color: #00417d;
+  color: #ffffff;
+}
+
+.page-footer a {
+  margin-left: 56px;
+  color: inherit;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.footer-email {
+  padding-left: 30px;
+  background-image: url("img/icon-email-footer.svg");
+}
+
+.footer-url {
+  padding-left: 25px;
+  background-image: url("img/youtube.svg");
+}
+.opisanie {
+ margin: 0 0 24px;
+ text-align: left;
+ font-size: 28px;
+ 
+}
+.vid {
+	margin: 0 0 24px;
+  text-align: center;
+}
