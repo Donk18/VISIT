@@ -2,6 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
+      <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -9,28 +10,52 @@
     <title>Визитка игрового канала</title>
   </head>
   <body>
-    <header class="page-header">
-       <div class="container"> 
-       <a class="header-email" 
-	   href="mailto:donk18@mail.ru">donk18@mail.ru</a>
-	   <a class="header-url" href="https://www.youtube.com/channel/UCTV_undasBp5afe-1IHNQGQ/featured">Канал на YouTube</a>
-   	   </div>
-    </header>
-    <section class="hero-image">
-      <h1 class="heading">Вещий Олег</h1>
-	        <p class="i">Игровой канал</p>
-	    </section>
+  <section class="top__section">
+      <header class="page-header">
+          <div class="container">
+              <div class="top__nav">
+
+                  <div class="href__top">
+                      <img src="img/mail.svg" alt="">
+                      <a class="header-email" href="mailto:donk18@mail.ru">donk18@mail.ru</a>
+                  </div>
+                  <div class="href__top">
+                      <img src="img/yt.svg" alt="">
+                      <a class="header-url" href="https://www.youtube.com/channel/UCTV_undasBp5afe-1IHNQGQ/featured">Канал на YouTube</a>
+                  </div>
+
+
+              </div>
+
+          </div>
+      </header>
+
+      <div class="center__text">
+          <h1 class="heading">Вещий Олег</h1>
+          <h2>игровой канал</h2>
+      </div>
+
+  </section>
+
+
     <section class="intro">
 	<div class="container">
-			  <img class="avatar"; src="files/user.jpg" width="500"; alt="Вещий Олег">
-                        <h2 class="subheading">Знакомство</h2>
-      <h3>О канале</h3>
-       <p>Всех приветствую, товарищи. Здесь можно найти прохождения игр,
-	  веселые нарезки игровых моментов, нарезки под музыку, гайды, стримы по
-	  разным играм и просто приятное ламповое общение...  Присоединяйтесь! Вместе будет веселее)))</p>
-      <h3>Актуальные новости</h3>
-       <p>Здесь будут размещаться актуальные новости канала</p>
-	  <h3>Расписание стримов и выхода видосов</h3>
+        <h2 class="subheading">Знакомство</h2>
+        <div class="znak">
+            <img class="avatar"; src="files/user.jpg" width="500"; alt="Вещий Олег">
+            <div class="znak__text">
+                <h3>О канале</h3>
+                <p>Всех приветствую, товарищи. Здесь можно найти прохождения игр,
+                    веселые нарезки игровых моментов, нарезки под музыку, гайды, стримы по
+                    разным играм и просто приятное ламповое общение...  Присоединяйтесь! Вместе будет веселее)))</p>
+                <h3>Актуальные новости</h3>
+                <p>Здесь будут размещаться актуальные новости канала</p>
+
+            </div>
+
+        </div>
+        <h3>Расписание стримов и выхода видосов</h3>
+        <br />
 	   <table border="1">
         <tr>
          <th>Понедельник</th><th>Вторник</th><th>Среда</th><th>Четверг</th><th>Пятница</th><th>Суббота</th><th>Воскресение</th>
@@ -48,18 +73,28 @@
     --><h2 class="subheading">Мои видосы</h2>
 	  <div class="vid">
       <h3>Самое популярное видео на канале</h3>
+          <br >
       <p><iframe width="560" height="315" src="https://www.youtube.com/embed/hNzY1vMXapI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
       <h3>Самое свежее видео на канале</h3>
+          <br />
       <p><iframe width="560" height="315" src="https://www.youtube.com/embed/9OkurIfcEPE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 	</div><!--
     --></section><!--
     --><footer class="page-footer"><!--
       --><div class="container"> 
-	   <a class="opisanie">Больше видео на канале! По вопросам сотрудничества обращаться на почту.</a>
-       <a class="header-email" 
-	   href="mailto:donk18@mail.ru">donk18@mail.ru</a>
-	   <a class="header-url" href="https://www.youtube.com/channel/UCTV_undasBp5afe-1IHNQGQ/featured">Канал на YouTube</a>
-   	  </div><!--
+	   <p class="opisanie">Больше видео на канале! По вопросам сотрудничества обращаться на почту.</p>
+     <div class="bot_nav">
+      <div class="href-bot">
+      <img src="img/mail.svg" alt="">
+      <a class="header-email"
+      	   href="mailto:donk18@mail.ru">donk18@mail.ru</a>
+      </div>
+      <div class="href-bot">
+      <img src="img/yt.svg" alt="">
+          <a class="header-url" href="https://www.youtube.com/channel/UCTV_undasBp5afe-1IHNQGQ/featured">Канал на YouTube</a>
+      </div>
+     </div>
+    </div><!--
     --></footer>
   </body>
 </html>
