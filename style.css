@@ -267,12 +267,12 @@ h3 {
 
 .footer-email {
   padding-left: 30px;
-  background-image: url("img/icon-email-footer.svg");
+  background-image: url("img/mail.svg");
 }
 
 .footer-url {
   padding-left: 25px;
-  background-image: url("img/youtube.svg");
+  background-image: url("img/yt.svg");
 }
 .opisanie {
  margin: 0 0 24px;
